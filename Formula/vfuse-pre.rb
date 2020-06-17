@@ -1,4 +1,4 @@
-class Vfuse < Formula
+class VfusePre < Formula
   desc "Convert bootable DMG images for use in VMware Fusion"
   homepage "https://github.com/chilcote/vfuse"
   url "https://github.com/chilcote/vfuse/archive/3.0.0.tar.gz"
