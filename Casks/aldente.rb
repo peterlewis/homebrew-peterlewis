@@ -5,7 +5,7 @@ cask 'aldente' do
   url "https://github.com/davidwernhart/AlDente/releases/download/#{version}/AlDente.app.zip"
   appcast 'https://github.com/davidwernhart/AlDente/releases.atom'
   name 'AlDente'
-  homepage 'https://github.com/davidwernhart/AlDente'
+  homepage 'https://github.com/davidwernhart/AlDente/'
 
   app 'AlDente.app'
 end
