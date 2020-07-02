@@ -6,6 +6,8 @@ cask 'font-cascadia-mono-otf' do
   appcast 'https://github.com/microsoft/cascadia-code/releases.atom'
   name 'Cascadia Mono'
   homepage 'https://github.com/microsoft/cascadia-code'
+  
+  conflicts_with cask: 'font-cascadia-mono'
 
   font 'otf/CascadiaMono-Bold.otf'
   font 'otf/CascadiaMono-ExtraLight.otf'
