@@ -53,6 +53,6 @@ class Wpscan < Formula
 
   test do
     assert_match "URL: https://wordpress.org/",
-                 pipe_output("#{bin}/wpscan --no-update --url https://wordpress.org/")
+                 pipe_output("#{bin}/wpscan --version")
   end
 end
