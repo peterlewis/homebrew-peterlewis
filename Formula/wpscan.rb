@@ -52,7 +52,6 @@ class Wpscan < Formula
   end
 
   test do
-    assert_match "URL: https://wordpress.org/",
-                 pipe_output("#{bin}/wpscan --version")
+    assert_match version.to_s, shell_output("#{bin}/wpscan --version")
   end
 end
