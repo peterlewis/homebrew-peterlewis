@@ -7,5 +7,5 @@ cask "minelab-update-utility" do
   name "Minelab Update Utility"
   homepage "https://www.minelab.com/"
 
-  app "Minelab Update Utility.app"
+  app "Minelab Update Utility Equinox.app"
 end
