@@ -5,6 +5,7 @@ cask "aldente" do
   url "https://github.com/davidwernhart/AlDente/releases/download/#{version}/AlDente.app.zip"
   appcast "https://github.com/davidwernhart/AlDente/releases.atom"
   name "AlDente"
+  description "macOS menu bar tool to limit maximum charging percentage."
   homepage "https://github.com/davidwernhart/AlDente/"
 
   app "AlDente.app"
