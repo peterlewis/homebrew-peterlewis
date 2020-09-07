@@ -5,11 +5,11 @@ cask "aldente" do
   url "https://github.com/davidwernhart/AlDente/releases/download/#{version}/AlDente.app.zip"
   appcast "https://github.com/davidwernhart/AlDente/releases.atom"
   name "AlDente"
-  desc "A menu bar tool to limit maximum charging percentage"
+  desc "Menu bar tool to limit maximum charging percentage"
   homepage "https://github.com/davidwernhart/AlDente/"
 
   app "AlDente.app"
-  
-  uninstall delete: "/Library/PrivilegedHelperTools/com.davidwernhart.Helper",
+
+  uninstall delete:    "/Library/PrivilegedHelperTools/com.davidwernhart.Helper",
             launchctl: "com.davidwernhart.Helper"
 end
