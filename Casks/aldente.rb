@@ -13,5 +13,5 @@ cask "aldente" do
   uninstall delete:    "/Library/PrivilegedHelperTools/com.davidwernhart.Helper",
             launchctl: "com.davidwernhart.Helper"
 
-  caveats "Uninstall will not reset maximum battery charge to 100%. Please ensure that you do so manually, prior to uninstalling."
+  caveats "Uninstallation will not reset Max. Battery Charge to defaults. This must be done from within the application, prior to uninstall."
 end
