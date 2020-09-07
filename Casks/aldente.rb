@@ -7,6 +7,7 @@ cask "aldente" do
   name "AlDente"
   desc "Menu bar tool to limit maximum charging percentage"
   homepage "https://github.com/davidwernhart/AlDente/"
+  caveats "Uninstall will not reset maximum battery charge to 100%. Please ensure that you do so manually, prior to uninstalling."
 
   app "AlDente.app"
 
