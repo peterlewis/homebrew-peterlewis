@@ -9,4 +9,7 @@ cask "aldente" do
   homepage "https://github.com/davidwernhart/AlDente/"
 
   app "AlDente.app"
+  
+  uninstall delete: "/Library/PrivilegedHelperTools/com.davidwernhart.Helper",
+            launchctl: "com.davidwernhart.Helper"
 end
