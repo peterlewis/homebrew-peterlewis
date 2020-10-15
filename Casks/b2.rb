@@ -6,7 +6,7 @@ cask "b2" do
   appcast "https://github.com/tom-seddon/b2/releases.atom"
   name "b2"
   desc "BBC Micro emulator"
-  homepage "https://github.com/davidwernhart/AlDente/"
+  homepage "https://github.com/tom-seddon/b2/"
 
   app "b2.app"
 
