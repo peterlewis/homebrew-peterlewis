@@ -1,5 +1,5 @@
 cask "mimestream" do
-  version "0.6.17"
+  version "0.7.1b"
   sha256 "f26f4d50e8b7a655289e074da253fbf15c47093386ab9cbefe6ab18a25dfc193"
 
   # storage.googleapis.com was verified as official when first introduced to the cask
