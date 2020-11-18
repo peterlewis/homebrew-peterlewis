@@ -4,7 +4,7 @@ cask "google-software-update" do
 
   url "https://dl.google.com/mac/install/googlesoftwareupdate.dmg"
   name "Google Software Update"
-  desc "Google Software Update"
+  desc "Updates Google Software, not normally needed"
   homepage "https://www.google.com/"
 
   pkg "Install Google Software Update.app/Contents/Resources/GSUInstall.pkg"
