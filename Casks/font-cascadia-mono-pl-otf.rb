@@ -1,6 +1,6 @@
 cask "font-cascadia-mono-pl-otf" do
-  version "2007.01"
-  sha256 "9f066d0d9cb2669bea2e130d7add43d496bf24ef995f42dc603fc2014574a3a4"
+  version "2009.22"
+  sha256 "801bcc94b79ae46bc573c9c07feb44d581e12d15f79b176be165f00f8fdf9846"
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   appcast "https://github.com/microsoft/cascadia-code/releases.atom"
