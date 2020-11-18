@@ -9,10 +9,10 @@ cask "font-cascadia-mono-otf" do
 
   conflicts_with cask: "font-cascadia-mono"
 
-  font "otf/CascadiaMono-Bold.otf"
-  font "otf/CascadiaMono-ExtraLight.otf"
-  font "otf/CascadiaMono-Light.otf"
-  font "otf/CascadiaMono-Regular.otf"
-  font "otf/CascadiaMono-SemiBold.otf"
-  font "otf/CascadiaMono-SemiLight.otf"
+  font "otf/static/CascadiaMono-Bold.otf"
+  font "otf/static/CascadiaMono-ExtraLight.otf"
+  font "otf/static/CascadiaMono-Light.otf"
+  font "otf/static/CascadiaMono-Regular.otf"
+  font "otf/static/CascadiaMono-SemiBold.otf"
+  font "otf/static/CascadiaMono-SemiLight.otf"
 end
