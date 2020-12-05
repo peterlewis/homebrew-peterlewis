@@ -7,7 +7,7 @@ cask "jade" do
   name "JADE"
   homepage "https://github.com/ninxsoft/JADE/"
 
-  pkg "JADE.#{version}"
+  pkg "JADE.#{version}.pkg"
   
   uninstall pkgutil: "com.nixsoft.pkg.JADE"
 end
