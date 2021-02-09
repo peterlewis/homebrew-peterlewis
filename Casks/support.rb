@@ -10,5 +10,6 @@ cask "support" do
 
   pkg "Support.#{version}.pkg"
   
-  uninstall pkgutil: "nl.root3.support"
+  uninstall launchctl: "nl.root3.support",
+            pkgutil:   "nl.root3.support"
 end
