@@ -6,7 +6,7 @@ cask "support" do
   appcast "https://github.com/root3nl/SupportApp/releases.atom"
   name "AlDente"
   desc "Menu bar tool built for organisations"
-  homepage "https://github.com/davidwernhart/AlDente/"
+  homepage "https://github.com/root3nl/SupportApp/"
 
   pkg "Support.#{version}.pkg"
   
