@@ -5,7 +5,7 @@ cask "support" do
   url "https://github.com/root3nl/SupportApp/releases/download/#{version}/Support.#{version}.pkg"
   appcast "https://github.com/root3nl/SupportApp/releases.atom"
   name "AlDente"
-  desc "Menu bar tool to limit maximum charging percentage"
+  desc "Menu bar tool built for organisations"
   homepage "https://github.com/davidwernhart/AlDente/"
 
   pkg "Support.#{version}.pkg"
