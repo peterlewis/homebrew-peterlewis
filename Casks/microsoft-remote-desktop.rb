@@ -7,6 +7,7 @@ cask "microsoft-remote-desktop" do
 
   name "Microsoft Remote Desktop"
   homepage "https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac"
+  desc "Remote access and connectivity software"
   
   auto_updates true
   depends_on cask: "microsoft-auto-update"
