@@ -4,11 +4,10 @@ cask "microsoft-remote-desktop" do
 
   url "https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Remote_Desktop_#{version}_installer.pkg",
       verified: "officecdn-microsoft-com.akamaized.net/"
-
   name "Microsoft Remote Desktop"
-  homepage "https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac"
   desc "Remote access and connectivity software"
-  
+  homepage "https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac"
+
   auto_updates true
   depends_on cask: "microsoft-auto-update"
 
@@ -20,6 +19,6 @@ cask "microsoft-remote-desktop" do
           "attributeSetting" => 0,
         },
       ]
-  uninstall pkgutil: "com.microsoft.rdc.macos"
 
+  uninstall pkgutil: "com.microsoft.rdc.macos"
 end
