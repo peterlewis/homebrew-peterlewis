@@ -9,7 +9,7 @@ cask "support" do
   homepage "https://github.com/root3nl/SupportApp/"
 
   pkg "Support.#{version}.pkg"
-  
+
   uninstall launchctl: "nl.root3.support",
             pkgutil:   "nl.root3.support"
 end
