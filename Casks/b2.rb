@@ -9,5 +9,4 @@ cask "b2" do
   homepage "https://github.com/tom-seddon/b2/"
 
   app "b2.app"
-
 end
