@@ -6,15 +6,19 @@ cask "microsoft-remote-desktop" do
       verified: "officecdn-microsoft-com.akamaized.net/"
 
   name "Microsoft Remote Desktop"
-  homepage ""
+  homepage "https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac"
+  
+  auto_updates true
+  depends_on cask: "microsoft-auto-update"
 
   pkg "Microsoft_Remote_Desktop_#{version}_installer.pkg"
+      choices: [
+        {
+          "choiceIdentifier" => "com.microsoft.package.Microsoft_AutoUpdate.app", # Office16_all_autoupdate.pkg
+          "choiceAttribute"  => "selected",
+          "attributeSetting" => 0,
+        },
+      ]
+  uninstall pkgutil: "com.microsoft.rdc.macos"
 
-  uninstall pkgutil:   [
-    "com.microsoft.autoupdate2",
-    "com.microsoft.rdc.macos",
-  ],
-            launchctl: [
-              "com.microsoft.autoupdate.helper",
-            ]
 end
