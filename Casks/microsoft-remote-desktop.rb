@@ -11,7 +11,7 @@ cask "microsoft-remote-desktop" do
   auto_updates true
   depends_on cask: "microsoft-auto-update"
 
-  pkg "Microsoft_Remote_Desktop_#{version}_installer.pkg"
+  pkg "Microsoft_Remote_Desktop_#{version}_installer.pkg",
       choices: [
         {
           "choiceIdentifier" => "com.microsoft.package.Microsoft_AutoUpdate.app", # Office16_all_autoupdate.pkg
