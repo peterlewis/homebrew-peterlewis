@@ -1,4 +1,4 @@
-cask "mist-test" do
+cask "mist-new" do
   version "1.1"
   sha256 "0ea600ef66f2276287567cf680264a030fbb5a331df828257e71bbee10e35f25"
 
