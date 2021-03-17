@@ -5,6 +5,7 @@ cask "jade" do
   url "https://github.com/ninxsoft/JADE/releases/download/v#{version}/JADE.#{version}.pkg"
   appcast "https://github.com/ninxsoft/JADE/releases.atom"
   name "JADE"
+  desc "Command-line tool to automate the downloading of your Jamf Nation assets"
   homepage "https://github.com/ninxsoft/JADE/"
 
   pkg "JADE.#{version}.pkg"
