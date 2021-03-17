@@ -9,5 +9,4 @@ cask "low-profile" do
   homepage "https://github.com/ninxsoft/LowProfile/"
 
   app "Low Profile.app"
-
 end
