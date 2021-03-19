@@ -5,7 +5,7 @@ cask "mist" do
   url "https://github.com/ninxsoft/Mist/releases/download/v#{version}/Mist.#{version}.pkg"
   appcast "https://github.com/ninxsoft/Mist/releases.atom"
   name "Mist"
-  desc "Command-line tool that automatically generates macOS Installer Disk Images and Packages"
+  desc "Command line tool that automatically generates installer disk images and packages"
   homepage "https://github.com/ninxsoft/Mist/"
 
   pkg "Mist.#{version}.pkg"
