@@ -4,7 +4,7 @@ cask "synergy" do
 
   url "https://symless.com/synergy/download/package/macos-12.0/synergy-#{version}-macos-arm64.dmg"
   appcast "https://symless.com/synergy/download"
-  name "Minelab Update Utility"
+  name "Synergy"
   homepage "https://symless.com/synergy/"
 
   app "Synergy.app"
